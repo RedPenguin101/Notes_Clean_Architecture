@@ -3,7 +3,10 @@
 * SOLID Principles are how you write clean mid-level code (module level)
 * a module can be thought of basically as a source code file
 * how do you arrange functions and data structures into classes, and how do you connect these classes
-* goal of SOLID: create mid-level structures that tolerate change, are easy to understand, are the basis of generic components
+* goal of SOLID: create mid-level structures that 
+	* tolerate change, 
+	* are easy to understand, 
+	* are the basis of generic components
 
 * Single Responsibiliy Principle: a module has exactly one reason to change
 * Open Closed: you change systems by adding new code, not changing existing code
@@ -13,8 +16,7 @@
 
 # Chapter 7: single responsibility principle
 
-* the name implies that it means that a module should only do one thing
-* it's a _function_ that should only do one thing.
+* the name implies that it means that a module should only do one thing - but that's not what it means - it is a principle that a _function_ that should only do one thing, but it's not the same as this principle.
 * this is higher level: a module should have exactly one reason to change
 * said another way: _a module should be responsible to one and only one actor_ - an actor being a group of users or stakeholders
 * separate code that different actors depend on
